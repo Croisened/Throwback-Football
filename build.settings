@@ -1,0 +1,49 @@
+settings = 
+{
+
+    android =
+    {
+      versionCode = "1"
+    },
+    
+    androidPermissions =
+    {
+      "android.permission.INTERNET",
+      "android.permission.VIBRATE",
+      "android.permisssion.USE_CREDENTIALS",
+     },        
+        
+        orientation =
+        {
+                default = "landscapeRight",
+                supported =
+                {
+                        "landscapeLeft", "landscapeRight"
+                },
+        },
+	
+        iphone =
+        {
+                plist =
+                {
+                        UIPrerenderedIcon = true,
+                        UIApplicationExitsOnSuspend = true,
+                        CFBundleIdentifier = "com.fullycroisened.ThrowbackFootball",
+                        CFBundleDisplayName = "Throwback Football",
+                        CFBundleIconFile = "Icon.png",
+						CFBundleIconFiles = {
+						   "Icon.png", 
+						   "Icon@2x.png", 
+						   "Icon-72.png", 
+						},
+                        UIAppFonts = 
+                        {
+                                "MaroonedOnMarsBB.ttf"
+                        },							
+                },
+        }
+	
+	
+	
+}
+	
